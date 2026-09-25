@@ -1,0 +1,20 @@
+
+> web@0.0.1 build
+> tsc -b && vite build
+
+[96msrc/App.tsx[0m:[93m1[0m:[93m24[0m - [91merror[0m[90m TS2307: [0mCannot find module '@workspace/ui/components/button' or its corresponding type declarations.
+
+[7m1[0m import { Button } from "@workspace/ui/components/button"
+[7m [0m [91m                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Found 1 error.
+
+⠙[1G[0K[1mnpm[22m [31merror[39m Lifecycle script `build` failed with error:
+⠙[1G[0K[1mnpm[22m [31merror[39m [94mcode[39m [33m2[39m
+⠙[1G[0K[1mnpm[22m [31merror[39m [94mpath[39m /home/dell/Desktop/Dichi/ReactJS/ShardCN/practice-1.9/apps/web
+⠙[1G[0K[1mnpm[22m [31merror[39m [94mworkspace[39m web@0.0.1
+⠙[1G[0K[1mnpm[22m [31merror[39m [94mlocation[39m /home/dell/Desktop/Dichi/ReactJS/ShardCN/practice-1.9/apps/web
+⠙[1G[0K[1mnpm[22m [31merror[39m command failed
+⠙[1G[0K[1mnpm[22m [31merror[39m [94mcommand[39m sh -c tsc -b && vite build
+⠙[1G[0K
